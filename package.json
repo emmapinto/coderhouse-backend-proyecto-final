@@ -1,0 +1,50 @@
+{
+  "name": "coderhouse-backend-proyecto-final",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js",
+    "lint": "eslint ./",
+    "lint:fix": "eslint ./ --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emmapinto/coderhouse-backend-proyecto-final.git"
+  },
+  "author": "Emmanuel Pinto",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/emmapinto/coderhouse-backend-proyecto-final/issues"
+  },
+  "homepage": "https://github.com/emmapinto/codehouse-backend-proyecto-final.git#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cluster": "^0.7.7",
+    "connect-mongo": "^4.6.0",
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.2",
+    "express-handlebars": "^6.0.6",
+    "express-session": "^1.17.3",
+    "libphonenumber-js": "^1.9.53",
+    "log4js": "^6.4.6",
+    "mongoose": "^6.2.5",
+    "nodemailer": "^6.7.5",
+    "passport": "^0.5.2",
+    "passport-local": "^1.0.0",
+    "twilio": "^3.77.0",
+    "uuid": "^8.3.2",
+    "yargs": "^17.5.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.18.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "nodemon": "^2.0.15"
+  }
+}
