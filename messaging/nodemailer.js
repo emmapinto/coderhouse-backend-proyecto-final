@@ -1,6 +1,8 @@
 import nodemailer from 'nodemailer';
 import 'dotenv/config';
 
+/**Usar para cuenta de GMAIL**/
+
 // const transporter = nodemailer.createTransport({
 //   service: 'gmail',
 //   port: 587,
@@ -11,6 +13,7 @@ import 'dotenv/config';
 // });
 // export default transporter;
 
+/**Usar para cuenta de Ethereal**/
 
 const transporter = nodemailer.createTransport({
   host: 'smtp.ethereal.email',
